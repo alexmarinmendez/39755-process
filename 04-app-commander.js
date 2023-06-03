@@ -14,7 +14,7 @@ program.parse()
 const PORT = parseInt(program.opts().p)
 const MONGO_URI = (program.opts().mode === 'development')
                         ? 'mongodb://127.0.0.1:27017'
-                        : 'mongodb+srv://coder:code@cluster0.yd7kuoh.mongodb.net/'
+                        : 'mongodb+srv://coder:coder@cluster0.yd7kuoh.mongodb.net/'
 
 app.get('/', (req, res) => res.send('Ok!!'))
 
