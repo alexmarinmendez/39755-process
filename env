@@ -1,4 +1,0 @@
-PORT=4000
-MODE=production
-MONGO_LOCAL=mongodb://127.0.0.1:27017
-MONGO_ATLAS=mongodb+srv://coder:coder@cluster0.yd7kuoh.mongodb.net/
